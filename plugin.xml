@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="org.devgirl.calendar"
+           id="org.apache.cordova.toast"
       version="0.1.0">
     <name>Calendar</name>
     <description>Sample PhoneGap Toast Plugin</description>

@@ -3,15 +3,15 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="org.apache.cordova.toast"
       version="0.1.0">
-    <name>Calendar</name>
+    <name>Toast</name>
     <description>Cordova Toast Plugin</description>
     <license>MIT</license>
     <keywords>phonegap,toast</keywords>
 
 
     <js-module src="www/toast.js" name="toast">
-        <!-- <clobbers target="toast" /> -->
-        <runs/>
+        <clobbers target="toast" />
+        <!-- <runs/> -->
     </js-module>
 
     <!-- android -->
@@ -22,6 +22,6 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/ToastPlugin.java" target-dir="src/org/apache/toast" />      
+        <source-file src="src/android/ToastPlugin.java" target-dir="src/org/apache/cordova/toast" />      
      </platform>          
 </plugin>

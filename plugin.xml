@@ -4,13 +4,13 @@
            id="org.apache.cordova.toast"
       version="0.1.0">
     <name>Calendar</name>
-    <description>Sample PhoneGap Toast Plugin</description>
+    <description>Cordova Toast Plugin</description>
     <license>MIT</license>
     <keywords>phonegap,toast</keywords>
 
 
     <js-module src="www/toast.js" name="toast">
-        <!-- <clobbers target="window.calendar" /> -->
+        <!-- <clobbers target="toast" /> -->
         <runs/>
     </js-module>
 

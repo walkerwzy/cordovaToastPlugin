@@ -7,7 +7,7 @@
  * Toast.shortshow("Short Toast");
  */
 
-cordova.define("org.apache.cordova.plugin.ToastPlugin", function(require, exports, module) {
+cordova.define("org.apache.cordova.toast.ToastPlugin", function(require, exports, module) {
     var exec = require("cordova/exec");
 
     var Toast = function () {};
